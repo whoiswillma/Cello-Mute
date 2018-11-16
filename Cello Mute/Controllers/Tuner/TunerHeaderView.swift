@@ -10,10 +10,6 @@ import UIKit
 
 class TunerHeaderView: UIView {
 
-    static func loadFromNib() -> TunerHeaderView {
-        return UINib(nibName: "TunerHeaderView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! TunerHeaderView
-    }
-
     enum TrackingStatus {
 
         case notTracking
@@ -26,22 +22,16 @@ class TunerHeaderView: UIView {
     @IBOutlet private weak var frequencyLabel: UILabel!
     @IBOutlet private weak var noteLabel: UILabel!
     @IBOutlet private weak var playLouderLabel: UILabel!
-    @IBOutlet private weak var separatorView: UIView!
 
-    var semitoneAdjustment: Pitch.SemitoneAdjustmentMethod = .sharps
+    var accidental: Note.PitchChangingAccidental = .sharp {
+        didSet {
+            updateFromPitchAndAccidental()
+        }
+    }
 
     var pitch: Pitch? {
         didSet {
-            let displayedPitch: Pitch
-            if let pitch = pitch {
-                displayedPitch = pitch
-            } else {
-                displayedPitch = Pitch(frequency: 440)!
-            }
-
-            noteLabel.attributedText = displayedPitch.closestNote(using: semitoneAdjustment).normalizedDescription()
-            centsLabel.text = "cents: \(displayedPitch.cents)"
-            frequencyLabel.text = "frequency: \(Int(round(displayedPitch.frequency)))"
+            updateFromPitchAndAccidental()
         }
     }
 
@@ -85,6 +75,14 @@ class TunerHeaderView: UIView {
     override func awakeFromNib() {
         pitch = nil
         trackingStatus = .notTracking
+    }
+
+    private func updateFromPitchAndAccidental() {
+        let displayedPitch = pitch ?? Pitch(frequency: 440)!
+
+        noteLabel.attributedText = displayedPitch.closestNote(using: accidental).normalizedDescription()
+        centsLabel.text = "cents: \(displayedPitch.cents)"
+        frequencyLabel.text = "frequency: \(Int(round(displayedPitch.frequency)))"
     }
 
 }

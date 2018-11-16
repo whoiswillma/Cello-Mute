@@ -7,42 +7,42 @@
 //
 
 import AudioKit
+import SwiftNotificationCenter
+import SwiftyUserDefaults
 import UIKit
 
 class TunerViewController: UIViewController {
 
     // views
 
-    @IBOutlet private weak var headerViewContainer: UIView!
-    private var headerView: TunerHeaderView!
+    @IBOutlet private weak var headerView: TunerHeaderView!
+    @IBOutlet private weak var plotView: TunerPlotView!
+    @IBOutlet private weak var accuracyView: TunerAccuracyView!
 
-    // model
+    private var inTuneCentRange: ClosedRange<Int> = -5...5
 
-    var tuner: Tuner!
+    private var tuner: Tuner!
 
     // controller
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        headerView = TunerHeaderView.loadFromNib()
-        headerViewContainer.addSubview(headerView)
-        headerView.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            headerView.topAnchor.constraint(equalTo: headerViewContainer.topAnchor),
-            headerView.leftAnchor.constraint(equalTo: headerViewContainer.leftAnchor),
-            headerView.rightAnchor.constraint(equalTo: headerViewContainer.rightAnchor),
-            headerView.bottomAnchor.constraint(equalTo: headerViewContainer.bottomAnchor)
-            ])
-
-        tuner = Tuner()
+        tuner = TenorEngine.shared.tuner
         tuner.delegate = self
+
+        plotView.inputNode = tuner.microphone
+
+        reloadSettingsFromDefaults()
+        Broadcaster.register(SettingsDefaultsObserving.self, observer: self)
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
         tuner.startTracking()
+
+        Warnings.shared.showMicrophoneAccessWarningIfNeeded()
     }
 
     override func viewWillDisappear(_ animated: Bool) {
@@ -57,14 +57,13 @@ extension TunerViewController: TunerDelegate {
 
     func tunerDidStartTracking(_ tuner: Tuner) {
         print("Tuner started tracking")
-
     }
 
     func tunerDidStopTracking(_ tuner: Tuner) {
         print("Tuner stopped tracking")
 
         headerView.trackingStatus = .notTracking
-        headerView.pitch = nil
+        accuracyView.setCentOffset(nil, animated: true)
     }
 
     func tunerDidBeginInactivelyTracking(_ tuner: Tuner) {
@@ -79,12 +78,43 @@ extension TunerViewController: TunerDelegate {
     }
 
     func tunerDidEndActivelyTracking(_ tuner: Tuner) {
+        plotView.pitch = nil
+        accuracyView.setCentOffset(nil, animated: true)
     }
 
-    func tuner(_ tuner: Tuner, didSample pitch: Pitch) {
+    func tuner(_ tuner: Tuner, didSampleSoundAtPitch pitch: Pitch) {
         headerView.pitch = pitch
+        plotView.pitch = pitch
+        accuracyView.setCentOffset(pitch.cents, animated: true)
+    }
+
+    func tuner(_ tuner: Tuner, didSampleSoundWithAmplitude amplitude: Double) {
+        plotView.amplitude = amplitude
     }
 
 }
 
+extension TunerViewController: SettingsDefaultsObserving {
 
+    func reloadSettingsFromDefaults() {
+        let settings = Defaults[.settings].tuner
+
+        headerView.accidental = settings.accidental
+
+        let range: ClosedRange<Int>
+        switch settings.inTuneLevel {
+        case .narrow: range = -2...2
+        case .medium: range = -5...5
+        case .wide: range = -10...10
+        }
+        plotView.inTuneCentRange = range
+        accuracyView.inTuneCentRange = range
+
+        switch settings.activationVolumeLevel {
+        case .quiet: tuner.activationAmplitude = 0.05
+        case .medium: tuner.activationAmplitude = 0.2
+        case .loud: tuner.activationAmplitude = 0.35
+        }
+    }
+
+}

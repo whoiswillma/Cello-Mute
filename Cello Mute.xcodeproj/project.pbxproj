@@ -7,25 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D666983219CBC1E00F6BCE5 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D666982219CBC1E00F6BCE5 /* TestCase.swift */; };
-		5D666985219CC5BC00F6BCE5 /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D666984219CC5BC00F6BCE5 /* Tuner.swift */; };
-		5D666987219CD27D00F6BCE5 /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D666986219CD27D00F6BCE5 /* CircularBuffer.swift */; };
+		5D04F71321C73CCC00EACA29 /* BPMPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04F71221C73CCC00EACA29 /* BPMPickerView.swift */; };
+		5D0B713B21DBCD1700894D5D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B713A21DBCD1700894D5D /* SettingsTableViewController.swift */; };
+		5D0B713D21DBCD5500894D5D /* FlatsSharpsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B713C21DBCD5500894D5D /* FlatsSharpsTableViewCell.swift */; };
+		5D0B713F21DBCDFC00894D5D /* MetronomePreciseSelctionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B713E21DBCDFC00894D5D /* MetronomePreciseSelctionTableViewCell.swift */; };
+		5D0B714121DBCF7900894D5D /* CreditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B714021DBCF7900894D5D /* CreditTableViewCell.swift */; };
+		5D11025621D95E43001A936C /* StaffNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D11025521D95E43001A936C /* StaffNoteView.swift */; };
+		5D239D0F21EA46660050DE8E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D0E21EA46660050DE8E /* Settings.swift */; };
+		5D239D1121EA56FF0050DE8E /* DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D1021EA56FF0050DE8E /* DefaultsKeys.swift */; };
+		5D239D1321EA7CB20050DE8E /* TunerInTuneLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D1221EA7CB20050DE8E /* TunerInTuneLevelTableViewCell.swift */; };
+		5D239D1521EBD46B0050DE8E /* SectionTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D1421EBD46B0050DE8E /* SectionTitleTableViewCell.swift */; };
+		5D239D1721EBD9320050DE8E /* TunerActivationVolumeLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D1621EBD9320050DE8E /* TunerActivationVolumeLevelTableViewCell.swift */; };
+		5D2F66C521DA7D0400AEBE19 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C319219F8D7D007873EB /* Pitch.swift */; };
+		5D2F66C621DA7D0400AEBE19 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31B219F8D7D007873EB /* Note.swift */; };
+		5D4E05B62206992200EA114F /* Warnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E05B52206992200EA114F /* Warnings.swift */; };
+		5D5CAA5E21D5AFFB00C69628 /* WB-High-Norm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5B21D5AFFB00C69628 /* WB-High-Norm.wav */; };
+		5D5CAA5F21D5AFFB00C69628 /* WB-High-Sub.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5C21D5AFFB00C69628 /* WB-High-Sub.wav */; };
+		5D5CAA6021D5AFFB00C69628 /* WB-High-Em.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5D21D5AFFB00C69628 /* WB-High-Em.wav */; };
+		5D60697421A3B9ED00367853 /* TenorEngineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D60697321A3B9ED00367853 /* TenorEngineComponent.swift */; };
 		5D66698B219D2E8400F6BCE5 /* TunerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66698A219D2E8400F6BCE5 /* TunerHeaderView.swift */; };
-		5DA78106219C6E3000A17C72 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA78105219C6E3000A17C72 /* Pitch.swift */; };
-		5DA78117219C811400A17C72 /* PitchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA78116219C811400A17C72 /* PitchTest.swift */; };
-		5DA78119219CB63E00A17C72 /* NoteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA78118219CB63E00A17C72 /* NoteTest.swift */; };
+		5D9D8D6221D001FF00D0512B /* SegmentedSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D8D6121D001FF00D0512B /* SegmentedSlider.swift */; };
+		5D9D8D6421D2970600D0512B /* BeatStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D8D6321D2970600D0512B /* BeatStylesView.swift */; };
+		5D9D8D6621D299AE00D0512B /* Rhythm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D8D6521D299AE00D0512B /* Rhythm.swift */; };
 		5DB6506E219B1760000C14E4 /* TunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6506D219B1760000C14E4 /* TunerViewController.swift */; };
-		5DB65076219B1AC6000C14E4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB65075219B1AC6000C14E4 /* Note.swift */; };
-		5DB8E669219DEFCD00D66E95 /* TunerHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB8E668219DEFCD00D66E95 /* TunerHeaderView.xib */; };
+		5DB7C315219F8D21007873EB /* PitchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C312219F8D21007873EB /* PitchTest.swift */; };
+		5DB7C316219F8D21007873EB /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C313219F8D21007873EB /* TestCase.swift */; };
+		5DB7C317219F8D21007873EB /* NoteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C314219F8D21007873EB /* NoteTest.swift */; };
+		5DB7C31F219F8D7D007873EB /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C319219F8D7D007873EB /* Pitch.swift */; };
+		5DB7C320219F8D7D007873EB /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31A219F8D7D007873EB /* CircularBuffer.swift */; };
+		5DB7C321219F8D7D007873EB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31B219F8D7D007873EB /* Note.swift */; };
+		5DB7C322219F8D7D007873EB /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31C219F8D7D007873EB /* Tuner.swift */; };
+		5DB7C327219FBD09007873EB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C326219FBD09007873EB /* UIColor.swift */; };
+		5DB7C329219FBF1D007873EB /* TunerPlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C328219FBF1D007873EB /* TunerPlotView.swift */; };
+		5DB7C32B219FDC95007873EB /* TenorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C32A219FDC95007873EB /* TenorEngine.swift */; };
+		5DB7C33121A05E9C007873EB /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C33021A05E9C007873EB /* Metronome.swift */; };
+		5DB7C33321A06422007873EB /* BPMMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C33221A06422007873EB /* BPMMonitor.swift */; };
+		5DB7C33721A06B6A007873EB /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C33621A06B6A007873EB /* MetronomeViewController.swift */; };
+		5DDAF6C5219E61EE0070A1B1 /* TunerAccuracyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDAF6C4219E61EE0070A1B1 /* TunerAccuracyView.swift */; };
 		5DDFF987219B15B100FB1D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFF986219B15B100FB1D3F /* AppDelegate.swift */; };
 		5DDFF98E219B15B100FB1D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF98C219B15B100FB1D3F /* Main.storyboard */; };
 		5DDFF990219B15B200FB1D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF98F219B15B200FB1D3F /* Assets.xcassets */; };
 		5DDFF993219B15B200FB1D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFF991219B15B200FB1D3F /* LaunchScreen.storyboard */; };
+		5DE00A8321D680B300B4150A /* WB-Med-Sub.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DE00A8021D680B300B4150A /* WB-Med-Sub.wav */; };
+		5DE00A8421D680B300B4150A /* WB-Med-Em.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DE00A8121D680B300B4150A /* WB-Med-Em.wav */; };
+		5DE00A8521D680B300B4150A /* WB-Med-Norm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5DE00A8221D680B300B4150A /* WB-Med-Norm.wav */; };
+		5DE00A8721D680E700B4150A /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A8621D680E700B4150A /* Resources.swift */; };
+		5DE00A8D21D6DAF700B4150A /* RhythmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A8C21D6DAF700B4150A /* RhythmViewController.swift */; };
+		5DE00A9221D8446E00B4150A /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A9121D8446E00B4150A /* Generator.swift */; };
+		5DE00A9421D84B1500B4150A /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A9321D84B1500B4150A /* GeneratorViewController.swift */; };
+		5DE00A9821D86DC300B4150A /* RoundedRectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A9721D86DC300B4150A /* RoundedRectButton.swift */; };
 		CFC3D82C0BB2082A0EE1A01E /* Pods_Cello_Mute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A07B36227BBE588F3FED244 /* Pods_Cello_Mute.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5DA78110219C722600A17C72 /* PBXContainerItemProxy */ = {
+		5DB7C30D219F8D0B007873EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5DDFF97B219B15B100FB1D3F /* Project object */;
 			proxyType = 1;
@@ -36,31 +71,64 @@
 
 /* Begin PBXFileReference section */
 		1A07B36227BBE588F3FED244 /* Pods_Cello_Mute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cello_Mute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32DE52CC62D0A7510596BBBF /* Pods-Cello Mute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute.debug.xcconfig"; sourceTree = "<group>"; };
-		5D666982219CBC1E00F6BCE5 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
-		5D666984219CC5BC00F6BCE5 /* Tuner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
-		5D666986219CD27D00F6BCE5 /* CircularBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularBuffer.swift; sourceTree = "<group>"; };
+		5D04F71221C73CCC00EACA29 /* BPMPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMPickerView.swift; sourceTree = "<group>"; };
+		5D0B713A21DBCD1700894D5D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		5D0B713C21DBCD5500894D5D /* FlatsSharpsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatsSharpsTableViewCell.swift; sourceTree = "<group>"; };
+		5D0B713E21DBCDFC00894D5D /* MetronomePreciseSelctionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomePreciseSelctionTableViewCell.swift; sourceTree = "<group>"; };
+		5D0B714021DBCF7900894D5D /* CreditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditTableViewCell.swift; sourceTree = "<group>"; };
+		5D11025521D95E43001A936C /* StaffNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffNoteView.swift; sourceTree = "<group>"; };
+		5D239D0E21EA46660050DE8E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5D239D1021EA56FF0050DE8E /* DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeys.swift; sourceTree = "<group>"; };
+		5D239D1221EA7CB20050DE8E /* TunerInTuneLevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerInTuneLevelTableViewCell.swift; sourceTree = "<group>"; };
+		5D239D1421EBD46B0050DE8E /* SectionTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleTableViewCell.swift; sourceTree = "<group>"; };
+		5D239D1621EBD9320050DE8E /* TunerActivationVolumeLevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerActivationVolumeLevelTableViewCell.swift; sourceTree = "<group>"; };
+		5D4E05B52206992200EA114F /* Warnings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warnings.swift; sourceTree = "<group>"; };
+		5D5CAA5B21D5AFFB00C69628 /* WB-High-Norm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-High-Norm.wav"; sourceTree = "<group>"; };
+		5D5CAA5C21D5AFFB00C69628 /* WB-High-Sub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-High-Sub.wav"; sourceTree = "<group>"; };
+		5D5CAA5D21D5AFFB00C69628 /* WB-High-Em.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-High-Em.wav"; sourceTree = "<group>"; };
+		5D60697321A3B9ED00367853 /* TenorEngineComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorEngineComponent.swift; sourceTree = "<group>"; };
 		5D66698A219D2E8400F6BCE5 /* TunerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerHeaderView.swift; sourceTree = "<group>"; };
-		5DA78105219C6E3000A17C72 /* Pitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
-		5DA7810B219C722600A17C72 /* Cello Mute Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cello Mute Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA7810F219C722600A17C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DA78115219C811400A17C72 /* Cello Mute Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cello Mute Tests-Bridging-Header.h"; sourceTree = "<group>"; };
-		5DA78116219C811400A17C72 /* PitchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchTest.swift; sourceTree = "<group>"; };
-		5DA78118219CB63E00A17C72 /* NoteTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTest.swift; sourceTree = "<group>"; };
+		5D9D8D6121D001FF00D0512B /* SegmentedSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedSlider.swift; sourceTree = "<group>"; };
+		5D9D8D6321D2970600D0512B /* BeatStylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatStylesView.swift; sourceTree = "<group>"; };
+		5D9D8D6521D299AE00D0512B /* Rhythm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhythm.swift; sourceTree = "<group>"; };
 		5DB6506D219B1760000C14E4 /* TunerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewController.swift; sourceTree = "<group>"; };
-		5DB65075219B1AC6000C14E4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		5DB8E668219DEFCD00D66E95 /* TunerHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TunerHeaderView.xib; sourceTree = "<group>"; };
+		5DB7C308219F8D0B007873EB /* Cello Mute Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cello Mute Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB7C30C219F8D0B007873EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB7C312219F8D21007873EB /* PitchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PitchTest.swift; path = "Cello Mute Tests/Tenor Tests/PitchTest.swift"; sourceTree = SOURCE_ROOT; };
+		5DB7C313219F8D21007873EB /* TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCase.swift; path = "Cello Mute Tests/Tenor Tests/TestCase.swift"; sourceTree = SOURCE_ROOT; };
+		5DB7C314219F8D21007873EB /* NoteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteTest.swift; path = "Cello Mute Tests/Tenor Tests/NoteTest.swift"; sourceTree = SOURCE_ROOT; };
+		5DB7C319219F8D7D007873EB /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		5DB7C31A219F8D7D007873EB /* CircularBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularBuffer.swift; sourceTree = "<group>"; };
+		5DB7C31B219F8D7D007873EB /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		5DB7C31C219F8D7D007873EB /* Tuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
+		5DB7C326219FBD09007873EB /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5DB7C328219FBF1D007873EB /* TunerPlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerPlotView.swift; sourceTree = "<group>"; };
+		5DB7C32A219FDC95007873EB /* TenorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorEngine.swift; sourceTree = "<group>"; };
+		5DB7C33021A05E9C007873EB /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		5DB7C33221A06422007873EB /* BPMMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMMonitor.swift; sourceTree = "<group>"; };
+		5DB7C33621A06B6A007873EB /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
+		5DDAF6C4219E61EE0070A1B1 /* TunerAccuracyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerAccuracyView.swift; sourceTree = "<group>"; };
 		5DDFF983219B15B100FB1D3F /* Cello Mute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cello Mute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFF986219B15B100FB1D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDFF98D219B15B100FB1D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DDFF98F219B15B200FB1D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DDFF992219B15B200FB1D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DDFF994219B15B200FB1D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FF687800F5148631B5231AB /* Pods-Cello Mute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute.release.xcconfig"; sourceTree = "<group>"; };
+		5DE00A8021D680B300B4150A /* WB-Med-Sub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-Med-Sub.wav"; sourceTree = "<group>"; };
+		5DE00A8121D680B300B4150A /* WB-Med-Em.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-Med-Em.wav"; sourceTree = "<group>"; };
+		5DE00A8221D680B300B4150A /* WB-Med-Norm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-Med-Norm.wav"; sourceTree = "<group>"; };
+		5DE00A8621D680E700B4150A /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		5DE00A8C21D6DAF700B4150A /* RhythmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmViewController.swift; sourceTree = "<group>"; };
+		5DE00A9121D8446E00B4150A /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		5DE00A9321D84B1500B4150A /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		5DE00A9521D8648600B4150A /* Todo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Todo; sourceTree = "<group>"; };
+		5DE00A9721D86DC300B4150A /* RoundedRectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectButton.swift; sourceTree = "<group>"; };
+		ACFD391A975559D03751E960 /* Pods-Cello Mute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute.release.xcconfig"; sourceTree = "<group>"; };
+		D26AFE5443FB4528552F5F0B /* Pods-Cello Mute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DA78108219C722600A17C72 /* Frameworks */ = {
+		5DB7C305219F8D0B007873EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,22 +149,25 @@
 		0201C737BE0446EDA71D2399 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32DE52CC62D0A7510596BBBF /* Pods-Cello Mute.debug.xcconfig */,
-				9FF687800F5148631B5231AB /* Pods-Cello Mute.release.xcconfig */,
+				D26AFE5443FB4528552F5F0B /* Pods-Cello Mute.debug.xcconfig */,
+				ACFD391A975559D03751E960 /* Pods-Cello Mute.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5DA7810C219C722600A17C72 /* Cello Mute Tests */ = {
+		5D0B713921DBCD0200894D5D /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				5DA7810F219C722600A17C72 /* Info.plist */,
-				5D666982219CBC1E00F6BCE5 /* TestCase.swift */,
-				5DA78118219CB63E00A17C72 /* NoteTest.swift */,
-				5DA78116219C811400A17C72 /* PitchTest.swift */,
-				5DA78115219C811400A17C72 /* Cello Mute Tests-Bridging-Header.h */,
+				5D239D0E21EA46660050DE8E /* Settings.swift */,
+				5D0B713A21DBCD1700894D5D /* SettingsTableViewController.swift */,
+				5D239D1421EBD46B0050DE8E /* SectionTitleTableViewCell.swift */,
+				5D0B713C21DBCD5500894D5D /* FlatsSharpsTableViewCell.swift */,
+				5D239D1221EA7CB20050DE8E /* TunerInTuneLevelTableViewCell.swift */,
+				5D239D1621EBD9320050DE8E /* TunerActivationVolumeLevelTableViewCell.swift */,
+				5D0B713E21DBCDFC00894D5D /* MetronomePreciseSelctionTableViewCell.swift */,
+				5D0B714021DBCF7900894D5D /* CreditTableViewCell.swift */,
 			);
-			path = "Cello Mute Tests";
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		5DB6506F219B1763000C14E4 /* Controllers */ = {
@@ -104,6 +175,9 @@
 			children = (
 				5DDFF98C219B15B100FB1D3F /* Main.storyboard */,
 				5DB65070219B177B000C14E4 /* Tuner */,
+				5DB7C33521A06B59007873EB /* Metronome */,
+				5DE00A8F21D8445700B4150A /* Generator */,
+				5D0B713921DBCD0200894D5D /* Settings */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,28 +186,108 @@
 			isa = PBXGroup;
 			children = (
 				5DB6506D219B1760000C14E4 /* TunerViewController.swift */,
-				5DB8E668219DEFCD00D66E95 /* TunerHeaderView.xib */,
 				5D66698A219D2E8400F6BCE5 /* TunerHeaderView.swift */,
+				5DB7C328219FBF1D007873EB /* TunerPlotView.swift */,
+				5DDAF6C4219E61EE0070A1B1 /* TunerAccuracyView.swift */,
 			);
 			path = Tuner;
 			sourceTree = "<group>";
 		};
-		5DB65074219B1AB9000C14E4 /* Model */ = {
+		5DB7C309219F8D0B007873EB /* Cello Mute Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5DB65075219B1AC6000C14E4 /* Note.swift */,
-				5DA78105219C6E3000A17C72 /* Pitch.swift */,
-				5D666984219CC5BC00F6BCE5 /* Tuner.swift */,
-				5D666986219CD27D00F6BCE5 /* CircularBuffer.swift */,
+				5DB7C324219F8D8C007873EB /* Tenor Tests */,
+				5DB7C30C219F8D0B007873EB /* Info.plist */,
 			);
-			path = Model;
+			path = "Cello Mute Tests";
+			sourceTree = "<group>";
+		};
+		5DB7C318219F8D7D007873EB /* Tenor */ = {
+			isa = PBXGroup;
+			children = (
+				5DB7C32A219FDC95007873EB /* TenorEngine.swift */,
+				5D60697321A3B9ED00367853 /* TenorEngineComponent.swift */,
+				5DB7C319219F8D7D007873EB /* Pitch.swift */,
+				5DB7C31B219F8D7D007873EB /* Note.swift */,
+				5DB7C31A219F8D7D007873EB /* CircularBuffer.swift */,
+				5DB7C32D21A05DF1007873EB /* Tuner */,
+				5DB7C32E21A05DFC007873EB /* Metronome */,
+				5DB7C32F21A05E02007873EB /* Generator */,
+				5DB7C33421A06927007873EB /* Resources */,
+			);
+			path = Tenor;
+			sourceTree = "<group>";
+		};
+		5DB7C324219F8D8C007873EB /* Tenor Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DB7C313219F8D21007873EB /* TestCase.swift */,
+				5DB7C314219F8D21007873EB /* NoteTest.swift */,
+				5DB7C312219F8D21007873EB /* PitchTest.swift */,
+			);
+			path = "Tenor Tests";
+			sourceTree = "<group>";
+		};
+		5DB7C325219FBCF5007873EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DB7C326219FBD09007873EB /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DB7C32D21A05DF1007873EB /* Tuner */ = {
+			isa = PBXGroup;
+			children = (
+				5DB7C31C219F8D7D007873EB /* Tuner.swift */,
+			);
+			path = Tuner;
+			sourceTree = "<group>";
+		};
+		5DB7C32E21A05DFC007873EB /* Metronome */ = {
+			isa = PBXGroup;
+			children = (
+				5DB7C33021A05E9C007873EB /* Metronome.swift */,
+				5DB7C33221A06422007873EB /* BPMMonitor.swift */,
+				5D9D8D6521D299AE00D0512B /* Rhythm.swift */,
+			);
+			path = Metronome;
+			sourceTree = "<group>";
+		};
+		5DB7C32F21A05E02007873EB /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				5DE00A9121D8446E00B4150A /* Generator.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		5DB7C33421A06927007873EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DE00A8621D680E700B4150A /* Resources.swift */,
+				5DE00A7D21D67FD900B4150A /* Wood Block */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DB7C33521A06B59007873EB /* Metronome */ = {
+			isa = PBXGroup;
+			children = (
+				5DB7C33621A06B6A007873EB /* MetronomeViewController.swift */,
+				5D04F71221C73CCC00EACA29 /* BPMPickerView.swift */,
+				5DE00A8C21D6DAF700B4150A /* RhythmViewController.swift */,
+				5D9D8D6321D2970600D0512B /* BeatStylesView.swift */,
+				5D9D8D6121D001FF00D0512B /* SegmentedSlider.swift */,
+			);
+			path = Metronome;
 			sourceTree = "<group>";
 		};
 		5DDFF97A219B15B100FB1D3F = {
 			isa = PBXGroup;
 			children = (
 				5DDFF985219B15B100FB1D3F /* Cello Mute */,
-				5DA7810C219C722600A17C72 /* Cello Mute Tests */,
+				5DB7C309219F8D0B007873EB /* Cello Mute Tests */,
 				5DDFF984219B15B100FB1D3F /* Products */,
 				0201C737BE0446EDA71D2399 /* Pods */,
 				DFD5B2F05ABCCC2CC5065ED8 /* Frameworks */,
@@ -144,7 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				5DDFF983219B15B100FB1D3F /* Cello Mute.app */,
-				5DA7810B219C722600A17C72 /* Cello Mute Tests.xctest */,
+				5DB7C308219F8D0B007873EB /* Cello Mute Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,14 +306,57 @@
 		5DDFF985219B15B100FB1D3F /* Cello Mute */ = {
 			isa = PBXGroup;
 			children = (
+				5DE00A9521D8648600B4150A /* Todo */,
 				5DDFF986219B15B100FB1D3F /* AppDelegate.swift */,
+				5D4E05B52206992200EA114F /* Warnings.swift */,
+				5D239D1021EA56FF0050DE8E /* DefaultsKeys.swift */,
 				5DDFF98F219B15B200FB1D3F /* Assets.xcassets */,
 				5DDFF991219B15B200FB1D3F /* LaunchScreen.storyboard */,
 				5DDFF994219B15B200FB1D3F /* Info.plist */,
-				5DB65074219B1AB9000C14E4 /* Model */,
+				5DB7C318219F8D7D007873EB /* Tenor */,
 				5DB6506F219B1763000C14E4 /* Controllers */,
+				5DB7C325219FBCF5007873EB /* Extensions */,
 			);
 			path = "Cello Mute";
+			sourceTree = "<group>";
+		};
+		5DE00A7D21D67FD900B4150A /* Wood Block */ = {
+			isa = PBXGroup;
+			children = (
+				5DE00A7E21D67FEF00B4150A /* High Pitch */,
+				5DE00A7F21D67FFB00B4150A /* Medium Pitch */,
+			);
+			path = "Wood Block";
+			sourceTree = "<group>";
+		};
+		5DE00A7E21D67FEF00B4150A /* High Pitch */ = {
+			isa = PBXGroup;
+			children = (
+				5D5CAA5D21D5AFFB00C69628 /* WB-High-Em.wav */,
+				5D5CAA5B21D5AFFB00C69628 /* WB-High-Norm.wav */,
+				5D5CAA5C21D5AFFB00C69628 /* WB-High-Sub.wav */,
+			);
+			path = "High Pitch";
+			sourceTree = "<group>";
+		};
+		5DE00A7F21D67FFB00B4150A /* Medium Pitch */ = {
+			isa = PBXGroup;
+			children = (
+				5DE00A8121D680B300B4150A /* WB-Med-Em.wav */,
+				5DE00A8221D680B300B4150A /* WB-Med-Norm.wav */,
+				5DE00A8021D680B300B4150A /* WB-Med-Sub.wav */,
+			);
+			path = "Medium Pitch";
+			sourceTree = "<group>";
+		};
+		5DE00A8F21D8445700B4150A /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				5DE00A9321D84B1500B4150A /* GeneratorViewController.swift */,
+				5DE00A9721D86DC300B4150A /* RoundedRectButton.swift */,
+				5D11025521D95E43001A936C /* StaffNoteView.swift */,
+			);
+			path = Generator;
 			sourceTree = "<group>";
 		};
 		DFD5B2F05ABCCC2CC5065ED8 /* Frameworks */ = {
@@ -173,22 +370,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DA7810A219C722600A17C72 /* Cello Mute Tests */ = {
+		5DB7C307219F8D0B007873EB /* Cello Mute Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DA78114219C722600A17C72 /* Build configuration list for PBXNativeTarget "Cello Mute Tests" */;
+			buildConfigurationList = 5DB7C30F219F8D0B007873EB /* Build configuration list for PBXNativeTarget "Cello Mute Tests" */;
 			buildPhases = (
-				5DA78107219C722600A17C72 /* Sources */,
-				5DA78108219C722600A17C72 /* Frameworks */,
-				5DA78109219C722600A17C72 /* Resources */,
+				5DB7C304219F8D0B007873EB /* Sources */,
+				5DB7C305219F8D0B007873EB /* Frameworks */,
+				5DB7C306219F8D0B007873EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DA78111219C722600A17C72 /* PBXTargetDependency */,
+				5DB7C30E219F8D0B007873EB /* PBXTargetDependency */,
 			);
 			name = "Cello Mute Tests";
 			productName = "Cello Mute Tests";
-			productReference = 5DA7810B219C722600A17C72 /* Cello Mute Tests.xctest */;
+			productReference = 5DB7C308219F8D0B007873EB /* Cello Mute Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		5DDFF982219B15B100FB1D3F /* Cello Mute */ = {
@@ -199,6 +396,7 @@
 				5DDFF97F219B15B100FB1D3F /* Sources */,
 				5DDFF980219B15B100FB1D3F /* Frameworks */,
 				5DDFF981219B15B100FB1D3F /* Resources */,
+				A2178D3D81327215FCAE535D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,13 +417,18 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "William Ma";
 				TargetAttributes = {
-					5DA7810A219C722600A17C72 = {
+					5DB7C307219F8D0B007873EB = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
 						TestTargetID = 5DDFF982219B15B100FB1D3F;
 					};
 					5DDFF982219B15B100FB1D3F = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -243,13 +446,13 @@
 			projectRoot = "";
 			targets = (
 				5DDFF982219B15B100FB1D3F /* Cello Mute */,
-				5DA7810A219C722600A17C72 /* Cello Mute Tests */,
+				5DB7C307219F8D0B007873EB /* Cello Mute Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5DA78109219C722600A17C72 /* Resources */ = {
+		5DB7C306219F8D0B007873EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,10 +463,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5CAA5F21D5AFFB00C69628 /* WB-High-Sub.wav in Resources */,
 				5DDFF993219B15B200FB1D3F /* LaunchScreen.storyboard in Resources */,
 				5DDFF990219B15B200FB1D3F /* Assets.xcassets in Resources */,
-				5DB8E669219DEFCD00D66E95 /* TunerHeaderView.xib in Resources */,
 				5DDFF98E219B15B100FB1D3F /* Main.storyboard in Resources */,
+				5DE00A8421D680B300B4150A /* WB-Med-Em.wav in Resources */,
+				5D5CAA6021D5AFFB00C69628 /* WB-High-Em.wav in Resources */,
+				5D5CAA5E21D5AFFB00C69628 /* WB-High-Norm.wav in Resources */,
+				5DE00A8521D680B300B4150A /* WB-Med-Norm.wav in Resources */,
+				5DE00A8321D680B300B4150A /* WB-Med-Sub.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,16 +496,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A2178D3D81327215FCAE535D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftNotificationCenter/SwiftNotificationCenter.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftNotificationCenter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5DA78107219C722600A17C72 /* Sources */ = {
+		5DB7C304219F8D0B007873EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA78117219C811400A17C72 /* PitchTest.swift in Sources */,
-				5DA78119219CB63E00A17C72 /* NoteTest.swift in Sources */,
-				5D666983219CBC1E00F6BCE5 /* TestCase.swift in Sources */,
+				5D2F66C621DA7D0400AEBE19 /* Note.swift in Sources */,
+				5DB7C315219F8D21007873EB /* PitchTest.swift in Sources */,
+				5DB7C316219F8D21007873EB /* TestCase.swift in Sources */,
+				5D2F66C521DA7D0400AEBE19 /* Pitch.swift in Sources */,
+				5DB7C317219F8D21007873EB /* NoteTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,23 +541,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D666987219CD27D00F6BCE5 /* CircularBuffer.swift in Sources */,
+				5D0B713F21DBCDFC00894D5D /* MetronomePreciseSelctionTableViewCell.swift in Sources */,
+				5D0B713D21DBCD5500894D5D /* FlatsSharpsTableViewCell.swift in Sources */,
+				5D0B714121DBCF7900894D5D /* CreditTableViewCell.swift in Sources */,
+				5D239D1521EBD46B0050DE8E /* SectionTitleTableViewCell.swift in Sources */,
+				5DE00A9221D8446E00B4150A /* Generator.swift in Sources */,
+				5D239D1121EA56FF0050DE8E /* DefaultsKeys.swift in Sources */,
+				5DB7C31F219F8D7D007873EB /* Pitch.swift in Sources */,
+				5D9D8D6421D2970600D0512B /* BeatStylesView.swift in Sources */,
+				5D60697421A3B9ED00367853 /* TenorEngineComponent.swift in Sources */,
+				5DE00A9821D86DC300B4150A /* RoundedRectButton.swift in Sources */,
+				5D4E05B62206992200EA114F /* Warnings.swift in Sources */,
+				5DB7C329219FBF1D007873EB /* TunerPlotView.swift in Sources */,
+				5D239D1321EA7CB20050DE8E /* TunerInTuneLevelTableViewCell.swift in Sources */,
+				5DB7C322219F8D7D007873EB /* Tuner.swift in Sources */,
+				5DB7C320219F8D7D007873EB /* CircularBuffer.swift in Sources */,
+				5D9D8D6621D299AE00D0512B /* Rhythm.swift in Sources */,
+				5D239D1721EBD9320050DE8E /* TunerActivationVolumeLevelTableViewCell.swift in Sources */,
+				5DB7C33121A05E9C007873EB /* Metronome.swift in Sources */,
+				5DE00A8721D680E700B4150A /* Resources.swift in Sources */,
+				5DE00A8D21D6DAF700B4150A /* RhythmViewController.swift in Sources */,
+				5DDAF6C5219E61EE0070A1B1 /* TunerAccuracyView.swift in Sources */,
+				5DB7C33321A06422007873EB /* BPMMonitor.swift in Sources */,
+				5DB7C33721A06B6A007873EB /* MetronomeViewController.swift in Sources */,
+				5DB7C321219F8D7D007873EB /* Note.swift in Sources */,
+				5D9D8D6221D001FF00D0512B /* SegmentedSlider.swift in Sources */,
+				5D0B713B21DBCD1700894D5D /* SettingsTableViewController.swift in Sources */,
+				5D239D0F21EA46660050DE8E /* Settings.swift in Sources */,
+				5DB7C32B219FDC95007873EB /* TenorEngine.swift in Sources */,
 				5DDFF987219B15B100FB1D3F /* AppDelegate.swift in Sources */,
 				5DB6506E219B1760000C14E4 /* TunerViewController.swift in Sources */,
-				5DA78106219C6E3000A17C72 /* Pitch.swift in Sources */,
-				5D666985219CC5BC00F6BCE5 /* Tuner.swift in Sources */,
-				5DB65076219B1AC6000C14E4 /* Note.swift in Sources */,
+				5D04F71321C73CCC00EACA29 /* BPMPickerView.swift in Sources */,
 				5D66698B219D2E8400F6BCE5 /* TunerHeaderView.swift in Sources */,
+				5DB7C327219FBD09007873EB /* UIColor.swift in Sources */,
+				5DE00A9421D84B1500B4150A /* GeneratorViewController.swift in Sources */,
+				5D11025621D95E43001A936C /* StaffNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5DA78111219C722600A17C72 /* PBXTargetDependency */ = {
+		5DB7C30E219F8D0B007873EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5DDFF982219B15B100FB1D3F /* Cello Mute */;
-			targetProxy = 5DA78110219C722600A17C72 /* PBXContainerItemProxy */;
+			targetProxy = 5DB7C30D219F8D0B007873EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,7 +609,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5DA78112219C722600A17C72 /* Debug */ = {
+		5DB7C310219F8D0B007873EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -361,7 +625,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Cello Mute Tests/Cello Mute Tests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,7 +632,7 @@
 			};
 			name = Debug;
 		};
-		5DA78113219C722600A17C72 /* Release */ = {
+		5DB7C311219F8D0B007873EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -385,7 +648,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Cello Mute Tests/Cello Mute Tests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cello Mute.app/Cello Mute";
@@ -510,7 +772,7 @@
 		};
 		5DDFF998219B15B200FB1D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32DE52CC62D0A7510596BBBF /* Pods-Cello Mute.debug.xcconfig */;
+			baseConfigurationReference = D26AFE5443FB4528552F5F0B /* Pods-Cello Mute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,13 +786,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5DDFF999219B15B200FB1D3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FF687800F5148631B5231AB /* Pods-Cello Mute.release.xcconfig */;
+			baseConfigurationReference = ACFD391A975559D03751E960 /* Pods-Cello Mute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,18 +806,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DA78114219C722600A17C72 /* Build configuration list for PBXNativeTarget "Cello Mute Tests" */ = {
+		5DB7C30F219F8D0B007873EB /* Build configuration list for PBXNativeTarget "Cello Mute Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DA78112219C722600A17C72 /* Debug */,
-				5DA78113219C722600A17C72 /* Release */,
+				5DB7C310219F8D0B007873EB /* Debug */,
+				5DB7C311219F8D0B007873EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

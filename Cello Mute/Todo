@@ -1,0 +1,30 @@
+Pre-Ship:
+* Make sure there are no remaining "TODO" and "FIXME" in the code
+* Check for (replaceable) calls to fatalError()
+* Update dependencies in settings
+
+Post-Ship:
+* After the version goes live, make a branch. There doesn't necessarily have to be only one commit on that branch, just no additional features
+
+v2.2 Features:
+* (D) Fix crash when app starts and app is limited
+* Onboarding Screen
+* (D) Alert for microphone disabled
+* Update screenshots in App Store Connect
+
+v2.1 Features:
+* (D) Alert for low volume
+* (D) Allow changing
+    * (D) in-tune accuracy
+    * (D) activation volume
+* (D) Refactor settings
+* (D) Change icons
+
+v2.0 Features (3/3):
+* (D) Support for sharps and flats
+* (D) Make starting the app safe
+* (D) Credits for open source libs
+
+Key:
+D - Done
+S - Started

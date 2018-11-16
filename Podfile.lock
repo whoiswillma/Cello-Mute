@@ -1,21 +1,41 @@
 PODS:
-  - AudioKit (4.5.3):
-    - AudioKit/Core (= 4.5.3)
-    - AudioKit/UI (= 4.5.3)
-  - AudioKit/Core (4.5.3)
-  - AudioKit/UI (4.5.3):
+  - AudioKit (4.5.6):
+    - AudioKit/Core (= 4.5.6)
+    - AudioKit/UI (= 4.5.6)
+  - AudioKit/Core (4.5.6)
+  - AudioKit/UI (4.5.6):
     - AudioKit/Core
+  - MarqueeLabel/Swift (3.2.0)
+  - NotificationBannerSwift (2.0.1):
+    - MarqueeLabel/Swift (~> 3.2.0)
+    - SnapKit (~> 4.2.0)
+  - SnapKit (4.2.0)
+  - SwiftNotificationCenter (1.0.4)
+  - SwiftyUserDefaults (4.0.0-alpha.1)
 
 DEPENDENCIES:
   - AudioKit
+  - NotificationBannerSwift
+  - SwiftNotificationCenter
+  - SwiftyUserDefaults (= 4.0.0-alpha.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AudioKit
+    - MarqueeLabel
+    - NotificationBannerSwift
+    - SnapKit
+    - SwiftNotificationCenter
+    - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
-  AudioKit: 086927b955ed65d9d3398006eaa7a5c39ae8a7f1
+  AudioKit: 84f5a444902a74ac32cfe8488e72782792ff2edc
+  MarqueeLabel: 440a502b91a9179bd98f9fff00ba1150650a1c0e
+  NotificationBannerSwift: 007774aa590cc9680647b92b2f217bef5c00c32c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftNotificationCenter: 760386da2ce03d3594cb5e96d1e22ec80b44b46f
+  SwiftyUserDefaults: cebe0ff9472f52699772a514b6f7155861d8069b
 
-PODFILE CHECKSUM: f5169ea54999249fc15e55426cb9312ae5ed8b54
+PODFILE CHECKSUM: 367eb2c47ea649d913ef938c5032e1137a62c41f
 
 COCOAPODS: 1.5.3
