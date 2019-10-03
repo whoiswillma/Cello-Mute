@@ -31,7 +31,7 @@ final class Tuner: TenorEngineComponent {
 
     let output: AKNode
 
-    let microphone: AKMicrophone
+    let microphone: AKMicrophone?
 
     weak var delegate: TunerDelegate?
 

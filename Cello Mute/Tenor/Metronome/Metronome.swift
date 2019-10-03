@@ -63,9 +63,11 @@ final class Metronome: TenorEngineComponent {
         playingRhythm = rhythm
 
         let interval = 60 / Double(bpm) / rhythm.subdivisionLevel
-        timer = Timer.scheduledTimer(withTimeInterval: interval, repeats: true) { [weak self] _ in
+        let timer = Timer(timeInterval: interval, repeats: true) { [weak self] _ in
             self?.tick()
         }
+        RunLoop.main.add(timer, forMode: .common)
+        self.timer = timer
 
         // need to notify the delegate before the first tick is played
         delegate?.metronomeDidStart(self)

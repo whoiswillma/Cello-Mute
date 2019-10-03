@@ -6,6 +6,7 @@
 //  Copyright © 2018 William Ma. All rights reserved.
 //
 
+import AudioKit
 import AudioKitUI
 import UIKit
 

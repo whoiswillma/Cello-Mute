@@ -39,13 +39,13 @@ class GeneratorViewController: UIViewController {
         didSet {
             if let name = selectedNoteName {
                 for button in keyButtons {
-                    button.isSelected = false
+                    button.isFilled = false
                 }
 
-                keyButtons[name.semitone].isSelected = true
+                keyButtons[name.semitone].isFilled = true
             } else {
                 for button in keyButtons {
-                    button.isSelected = false
+                    button.isFilled = false
                 }
             }
         }

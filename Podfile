@@ -10,7 +10,8 @@ target 'Cello Mute' do
 
   pod 'AudioKit'
   pod 'NotificationBannerSwift'
+  pod 'SnapKit'
   pod 'SwiftNotificationCenter'
-  pod 'SwiftyUserDefaults', '4.0.0-alpha.1'
+  pod 'SwiftyUserDefaults', '~> 4.0'
 
 end

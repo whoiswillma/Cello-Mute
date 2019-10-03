@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,19 +14,19 @@
             <objects>
                 <tableViewController id="Eqh-AE-AaW" customClass="SettingsTableViewController" customModule="Cello_Mute" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="A6e-7w-Zgz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="sectionTitle" id="9Wt-w0-8Zv" customClass="SectionTitleTableViewCell" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="55.333333333333343" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="55.333332061767578" width="375" height="51"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Wt-w0-8Zv" id="64o-QW-WQ0">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en1-eS-oim">
-                                            <rect key="frame" x="24" y="15" width="327" height="14"/>
+                                            <rect key="frame" x="24" y="15" width="327" height="21"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <color key="textColor" name="Tint"/>
                                             <nil key="highlightedColor"/>
@@ -46,14 +44,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="flatsSharps" id="Ndf-1l-BSk" customClass="FlatsSharpsTableViewCell" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="99.333333333333343" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="106.33333206176758" width="375" height="61.333332061767578"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ndf-1l-BSk" id="ghZ-Is-J2I">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="61.333332061767578"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ePO-J2-WxQ">
-                                            <rect key="frame" x="16" y="15" width="343" height="15"/>
+                                            <rect key="frame" x="16" y="15" width="343" height="32.333333333333329"/>
                                             <segments>
                                                 <segment title="Flats"/>
                                                 <segment title="Sharps"/>
@@ -75,14 +73,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="tuner.inTuneLevel" id="tdp-kw-W7c" customClass="TunerInTuneLevelTableViewCell" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="143.33333333333334" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="167.66666412353516" width="375" height="61.333332061767578"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tdp-kw-W7c" id="8ZO-3r-YE2">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="61.333332061767578"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bRy-Bc-tsJ">
-                                            <rect key="frame" x="16" y="15" width="343" height="15"/>
+                                            <rect key="frame" x="16" y="15" width="343" height="32.333333333333329"/>
                                             <segments>
                                                 <segment title="Narrow"/>
                                                 <segment title="Medium"/>
@@ -105,14 +103,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="tuner.activationVolumeLevel" id="xKz-El-9OP" customClass="TunerActivationVolumeLevelTableViewCell" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="187.33333333333334" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="228.99999618530273" width="375" height="61.333332061767578"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xKz-El-9OP" id="EKj-V1-ria">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="61.333332061767578"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tjY-bE-DoW">
-                                            <rect key="frame" x="16" y="15" width="343" height="15"/>
+                                            <rect key="frame" x="16" y="15" width="343" height="32.333333333333329"/>
                                             <segments>
                                                 <segment title="Quiet"/>
                                                 <segment title="Medium"/>
@@ -135,10 +133,10 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="metronome.preciseSelection" rowHeight="48" id="bJP-KW-iA1" customClass="MetronomePreciseSelctionTableViewCell" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="231.33333333333334" width="375" height="48.000000000000028"/>
+                                <rect key="frame" x="0.0" y="290.33332824707031" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bJP-KW-iA1" id="fcC-tV-Oz7">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="47.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable Precise Selection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Don-uL-MgD">
@@ -148,7 +146,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kbY-Mt-Yxy">
-                                            <rect key="frame" x="310" y="8.0000000000000018" width="51" height="31.666666666666671"/>
+                                            <rect key="frame" x="310" y="8" width="51" height="32"/>
                                             <connections>
                                                 <action selector="switchValueChanged" destination="bJP-KW-iA1" eventType="valueChanged" id="9aE-7o-JT4"/>
                                             </connections>
@@ -169,14 +167,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="credits.credit" id="a8i-nU-75y" customClass="CreditTableViewCell" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="279.33333333333337" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="338.33332824707031" width="375" height="51"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a8i-nU-75y" id="xsL-jb-sZg">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="347.66666666666669" height="51"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duc-K5-s37">
-                                            <rect key="frame" x="16" y="15" width="317" height="14"/>
+                                            <rect key="frame" x="16" y="15" width="323.66666666666669" height="21"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                             <color key="textColor" name="Tint"/>
                                             <nil key="highlightedColor"/>
@@ -217,7 +215,7 @@
             <objects>
                 <navigationController id="o9U-hS-res" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eWk-oa-DkC">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -237,10 +235,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSt-rr-M1b" customClass="TunerHeaderView" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="87.999999999999986" width="375" height="174.66666666666663"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="169"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5e-Ut-Vsq">
-                                        <rect key="frame" x="16" y="29.000000000000007" width="343" height="116.66666666666669"/>
+                                        <rect key="frame" x="16" y="29" width="343" height="111"/>
                                         <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="100"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -252,19 +250,19 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="play louder" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3d-iX-vSo">
-                                        <rect key="frame" x="142" y="145.66666666666666" width="217" height="21"/>
+                                        <rect key="frame" x="142" y="140" width="217" height="21"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <color key="textColor" name="Tint"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="frequency: 440" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxt-gb-lzY">
-                                        <rect key="frame" x="16" y="145.66666666666666" width="118" height="21"/>
+                                        <rect key="frame" x="16" y="140" width="118" height="21"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O6u-xP-wQx">
-                                        <rect key="frame" x="16" y="173.66666666666669" width="343" height="2"/>
+                                        <rect key="frame" x="16" y="168" width="343" height="2"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="J7n-pD-Czm"/>
@@ -347,7 +345,7 @@
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ov-oR-fBB" customClass="TunerPlotView" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="270.66666666666669" width="375" height="236.66666666666669"/>
+                                <rect key="frame" x="0.0" y="265" width="375" height="242.33333333333337"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -396,10 +394,10 @@
                                 <rect key="frame" x="0.0" y="390.33333333333326" width="375" height="270.66666666666674"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibQ-cj-T5H">
-                                        <rect key="frame" x="0.0" y="43.999999999999986" width="375" height="226.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="46.999999999999986" width="375" height="223.66666666666663"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZv-ZF-RXB" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="121.33333333333331" width="42" height="97.333333333333314"/>
+                                                <rect key="frame" x="16" y="120.00000000000006" width="42" height="95.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="C"/>
                                                 <connections>
@@ -407,7 +405,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2p-8E-Ar6" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="66" y="121.33333333333331" width="42.333333333333343" height="97.333333333333314"/>
+                                                <rect key="frame" x="66" y="120.00000000000006" width="42.333333333333343" height="95.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="D"/>
                                                 <connections>
@@ -415,7 +413,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjF-4A-uCW" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="116.33333333333331" y="121.33333333333331" width="42" height="97.333333333333314"/>
+                                                <rect key="frame" x="116.33333333333331" y="120.00000000000006" width="42" height="95.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="E"/>
                                                 <connections>
@@ -423,7 +421,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTA-NO-rO2" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="166.33333333333334" y="121.33333333333331" width="42.333333333333343" height="97.333333333333314"/>
+                                                <rect key="frame" x="166.33333333333334" y="120.00000000000006" width="42.333333333333343" height="95.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="F"/>
                                                 <connections>
@@ -431,7 +429,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aq2-sd-x2r" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="216.66666666666666" y="121.33333333333331" width="41.999999999999972" height="97.333333333333314"/>
+                                                <rect key="frame" x="216.66666666666666" y="120.00000000000006" width="41.999999999999972" height="95.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="G"/>
                                                 <connections>
@@ -439,7 +437,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dy-x0-ChD" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="266.66666666666669" y="121.33333333333331" width="42.333333333333314" height="97.333333333333314"/>
+                                                <rect key="frame" x="266.66666666666669" y="120.00000000000006" width="42.333333333333314" height="95.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="A"/>
                                                 <connections>
@@ -447,7 +445,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDy-Ah-CaG" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="317" y="121.33333333333331" width="42" height="97.333333333333314"/>
+                                                <rect key="frame" x="317" y="120.00000000000006" width="42" height="95.666666666666686"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="B"/>
                                                 <connections>
@@ -455,7 +453,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlH-48-g4v" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="41" y="8" width="42.333333333333343" height="97.333333333333329"/>
+                                                <rect key="frame" x="41" y="8" width="42.333333333333343" height="96"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="C♯"/>
                                                 <connections>
@@ -463,7 +461,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdo-xB-iht" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="91.333333333333329" y="8" width="41.999999999999986" height="97.333333333333329"/>
+                                                <rect key="frame" x="91.333333333333329" y="8" width="41.999999999999986" height="96"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="D♯"/>
                                                 <connections>
@@ -471,7 +469,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5X-Vd-eZz" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="191.66666666666666" y="8" width="42" height="97.333333333333329"/>
+                                                <rect key="frame" x="191.66666666666666" y="8" width="42" height="96"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="F♯"/>
                                                 <connections>
@@ -479,7 +477,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F88-4w-NjZ" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="241.66666666666663" y="8" width="42" height="97.333333333333329"/>
+                                                <rect key="frame" x="241.66666666666663" y="8" width="42" height="96"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="G♯"/>
                                                 <connections>
@@ -487,42 +485,42 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l9D-ig-kq2" userLabel="C-D">
-                                                <rect key="frame" x="58" y="226.66666666666669" width="8" height="0.0"/>
+                                                <rect key="frame" x="58" y="223.66666666666669" width="8" height="0.0"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="8hg-2O-R9O"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMe-X5-1OC" userLabel="D-E">
-                                                <rect key="frame" x="108.33333333333333" y="226.66666666666669" width="8" height="0.0"/>
+                                                <rect key="frame" x="108.33333333333333" y="223.66666666666669" width="8" height="0.0"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="anU-S2-kb9"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jOl-B9-gBV" userLabel="F-G">
-                                                <rect key="frame" x="208.66666666666666" y="226.66666666666669" width="8" height="0.0"/>
+                                                <rect key="frame" x="208.66666666666666" y="223.66666666666669" width="8" height="0.0"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="0Nf-vn-sSD"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HCc-Nv-TB1" userLabel="G-A">
-                                                <rect key="frame" x="258.66666666666669" y="226.66666666666669" width="8" height="0.0"/>
+                                                <rect key="frame" x="258.66666666666669" y="223.66666666666669" width="8" height="0.0"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="B5G-Wp-bOB"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C40-GD-32T" userLabel="A-B">
-                                                <rect key="frame" x="309" y="226.66666666666669" width="8" height="0.0"/>
+                                                <rect key="frame" x="309" y="223.66666666666669" width="8" height="0.0"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="F1C-vH-hjT"/>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mu2-D1-QQU" customClass="RoundedRectButton" customModule="Cello_Mute" customModuleProvider="target">
-                                                <rect key="frame" x="291.66666666666669" y="8" width="42.333333333333314" height="97.333333333333329"/>
+                                                <rect key="frame" x="291.66666666666669" y="8" width="42.333333333333314" height="96"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <state key="normal" title="A♯"/>
                                                 <connections>
@@ -598,7 +596,7 @@
                                         </constraints>
                                     </view>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="QvO-gb-lSB">
-                                        <rect key="frame" x="93.666666666666657" y="8" width="265.33333333333337" height="29"/>
+                                        <rect key="frame" x="93.666666666666657" y="8" width="265.33333333333337" height="32"/>
                                         <segments>
                                             <segment title="2"/>
                                             <segment title="3"/>
@@ -610,7 +608,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Octave:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E66-J0-J1w">
-                                        <rect key="frame" x="15.999999999999996" y="8" width="61.666666666666657" height="28"/>
+                                        <rect key="frame" x="15.999999999999996" y="8" width="61.666666666666657" height="31"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -909,7 +907,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MdM-La-ZwL">
-                                <rect key="frame" x="16" y="8" width="343" height="29"/>
+                                <rect key="frame" x="16" y="8" width="343" height="32"/>
                                 <segments>
                                     <segment title="" image="Quarter"/>
                                     <segment title="" image="Eighth"/>
@@ -921,10 +919,10 @@
                                 </connections>
                             </segmentedControl>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZQM-9t-A8a" customClass="SegmentedSlider" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="14" y="44" width="347" height="31"/>
+                                <rect key="frame" x="14" y="47" width="347" height="31"/>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6FQ-2X-Fu5" customClass="BeatStylesView" customModule="Cello_Mute" customModuleProvider="target">
-                                <rect key="frame" x="16" y="82" width="343" height="280"/>
+                                <rect key="frame" x="16" y="85" width="343" height="277"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -955,21 +953,21 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Eighth" width="75" height="75"/>
+        <image name="Eighth" width="25" height="25"/>
         <image name="Generator" width="25" height="25"/>
         <image name="Metronome" width="25" height="25"/>
-        <image name="Play" width="56.25" height="56.25"/>
-        <image name="Quarter" width="45" height="75"/>
+        <image name="Play" width="25" height="25"/>
+        <image name="Quarter" width="15" height="25"/>
         <image name="Settings" width="25" height="25"/>
-        <image name="Sixteenth" width="150" height="75"/>
-        <image name="Triplet" width="98" height="75"/>
+        <image name="Sixteenth" width="50" height="25"/>
+        <image name="Triplet" width="32.666667938232422" height="25"/>
         <image name="Tuner" width="25" height="25"/>
         <namedColor name="Tint">
             <color red="1" green="0.58399999141693115" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aCY-jk-vd4"/>
+        <segue reference="UqO-lR-csL"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" name="Tint"/>
 </document>

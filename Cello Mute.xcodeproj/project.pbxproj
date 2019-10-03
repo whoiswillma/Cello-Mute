@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,8 +18,6 @@
 		5D239D1321EA7CB20050DE8E /* TunerInTuneLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D1221EA7CB20050DE8E /* TunerInTuneLevelTableViewCell.swift */; };
 		5D239D1521EBD46B0050DE8E /* SectionTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D1421EBD46B0050DE8E /* SectionTitleTableViewCell.swift */; };
 		5D239D1721EBD9320050DE8E /* TunerActivationVolumeLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D239D1621EBD9320050DE8E /* TunerActivationVolumeLevelTableViewCell.swift */; };
-		5D2F66C521DA7D0400AEBE19 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C319219F8D7D007873EB /* Pitch.swift */; };
-		5D2F66C621DA7D0400AEBE19 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31B219F8D7D007873EB /* Note.swift */; };
 		5D4E05B62206992200EA114F /* Warnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4E05B52206992200EA114F /* Warnings.swift */; };
 		5D5CAA5E21D5AFFB00C69628 /* WB-High-Norm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5B21D5AFFB00C69628 /* WB-High-Norm.wav */; };
 		5D5CAA5F21D5AFFB00C69628 /* WB-High-Sub.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5C21D5AFFB00C69628 /* WB-High-Sub.wav */; };
@@ -30,9 +28,6 @@
 		5D9D8D6421D2970600D0512B /* BeatStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D8D6321D2970600D0512B /* BeatStylesView.swift */; };
 		5D9D8D6621D299AE00D0512B /* Rhythm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D8D6521D299AE00D0512B /* Rhythm.swift */; };
 		5DB6506E219B1760000C14E4 /* TunerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6506D219B1760000C14E4 /* TunerViewController.swift */; };
-		5DB7C315219F8D21007873EB /* PitchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C312219F8D21007873EB /* PitchTest.swift */; };
-		5DB7C316219F8D21007873EB /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C313219F8D21007873EB /* TestCase.swift */; };
-		5DB7C317219F8D21007873EB /* NoteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C314219F8D21007873EB /* NoteTest.swift */; };
 		5DB7C31F219F8D7D007873EB /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C319219F8D7D007873EB /* Pitch.swift */; };
 		5DB7C320219F8D7D007873EB /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31A219F8D7D007873EB /* CircularBuffer.swift */; };
 		5DB7C321219F8D7D007873EB /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31B219F8D7D007873EB /* Note.swift */; };
@@ -56,21 +51,10 @@
 		5DE00A9221D8446E00B4150A /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A9121D8446E00B4150A /* Generator.swift */; };
 		5DE00A9421D84B1500B4150A /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A9321D84B1500B4150A /* GeneratorViewController.swift */; };
 		5DE00A9821D86DC300B4150A /* RoundedRectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE00A9721D86DC300B4150A /* RoundedRectButton.swift */; };
-		CFC3D82C0BB2082A0EE1A01E /* Pods_Cello_Mute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A07B36227BBE588F3FED244 /* Pods_Cello_Mute.framework */; };
+		AA1CCE954CC6372329DD58B7 /* Pods_Cello_Mute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F5FEFD0D6CE464D8E86276 /* Pods_Cello_Mute.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5DB7C30D219F8D0B007873EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5DDFF97B219B15B100FB1D3F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5DDFF982219B15B100FB1D3F;
-			remoteInfo = "Cello Mute";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1A07B36227BBE588F3FED244 /* Pods_Cello_Mute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cello_Mute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D04F71221C73CCC00EACA29 /* BPMPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMPickerView.swift; sourceTree = "<group>"; };
 		5D0B713A21DBCD1700894D5D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		5D0B713C21DBCD5500894D5D /* FlatsSharpsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatsSharpsTableViewCell.swift; sourceTree = "<group>"; };
@@ -92,11 +76,6 @@
 		5D9D8D6321D2970600D0512B /* BeatStylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatStylesView.swift; sourceTree = "<group>"; };
 		5D9D8D6521D299AE00D0512B /* Rhythm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhythm.swift; sourceTree = "<group>"; };
 		5DB6506D219B1760000C14E4 /* TunerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewController.swift; sourceTree = "<group>"; };
-		5DB7C308219F8D0B007873EB /* Cello Mute Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cello Mute Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DB7C30C219F8D0B007873EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DB7C312219F8D21007873EB /* PitchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PitchTest.swift; path = "Cello Mute Tests/Tenor Tests/PitchTest.swift"; sourceTree = SOURCE_ROOT; };
-		5DB7C313219F8D21007873EB /* TestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCase.swift; path = "Cello Mute Tests/Tenor Tests/TestCase.swift"; sourceTree = SOURCE_ROOT; };
-		5DB7C314219F8D21007873EB /* NoteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoteTest.swift; path = "Cello Mute Tests/Tenor Tests/NoteTest.swift"; sourceTree = SOURCE_ROOT; };
 		5DB7C319219F8D7D007873EB /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
 		5DB7C31A219F8D7D007873EB /* CircularBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularBuffer.swift; sourceTree = "<group>"; };
 		5DB7C31B219F8D7D007873EB /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
@@ -123,36 +102,30 @@
 		5DE00A9321D84B1500B4150A /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
 		5DE00A9521D8648600B4150A /* Todo */ = {isa = PBXFileReference; lastKnownFileType = text; path = Todo; sourceTree = "<group>"; };
 		5DE00A9721D86DC300B4150A /* RoundedRectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectButton.swift; sourceTree = "<group>"; };
-		ACFD391A975559D03751E960 /* Pods-Cello Mute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute.release.xcconfig"; sourceTree = "<group>"; };
-		D26AFE5443FB4528552F5F0B /* Pods-Cello Mute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute.debug.xcconfig"; sourceTree = "<group>"; };
+		8562DAF5ABFD075535710446 /* Pods-Cello Mute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.debug.xcconfig"; path = "Target Support Files/Pods-Cello Mute/Pods-Cello Mute.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F5FEFD0D6CE464D8E86276 /* Pods_Cello_Mute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cello_Mute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDD93A34E92B78AFC6AC804 /* Pods-Cello Mute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cello Mute.release.xcconfig"; path = "Target Support Files/Pods-Cello Mute/Pods-Cello Mute.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DB7C305219F8D0B007873EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5DDFF980219B15B100FB1D3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC3D82C0BB2082A0EE1A01E /* Pods_Cello_Mute.framework in Frameworks */,
+				AA1CCE954CC6372329DD58B7 /* Pods_Cello_Mute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0201C737BE0446EDA71D2399 /* Pods */ = {
+		53F4E51A794D5A1ECCCDDE2F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D26AFE5443FB4528552F5F0B /* Pods-Cello Mute.debug.xcconfig */,
-				ACFD391A975559D03751E960 /* Pods-Cello Mute.release.xcconfig */,
+				8562DAF5ABFD075535710446 /* Pods-Cello Mute.debug.xcconfig */,
+				CEDD93A34E92B78AFC6AC804 /* Pods-Cello Mute.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		5D0B713921DBCD0200894D5D /* Settings */ = {
@@ -193,15 +166,6 @@
 			path = Tuner;
 			sourceTree = "<group>";
 		};
-		5DB7C309219F8D0B007873EB /* Cello Mute Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5DB7C324219F8D8C007873EB /* Tenor Tests */,
-				5DB7C30C219F8D0B007873EB /* Info.plist */,
-			);
-			path = "Cello Mute Tests";
-			sourceTree = "<group>";
-		};
 		5DB7C318219F8D7D007873EB /* Tenor */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,16 +180,6 @@
 				5DB7C33421A06927007873EB /* Resources */,
 			);
 			path = Tenor;
-			sourceTree = "<group>";
-		};
-		5DB7C324219F8D8C007873EB /* Tenor Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5DB7C313219F8D21007873EB /* TestCase.swift */,
-				5DB7C314219F8D21007873EB /* NoteTest.swift */,
-				5DB7C312219F8D21007873EB /* PitchTest.swift */,
-			);
-			path = "Tenor Tests";
 			sourceTree = "<group>";
 		};
 		5DB7C325219FBCF5007873EB /* Extensions */ = {
@@ -287,10 +241,9 @@
 			isa = PBXGroup;
 			children = (
 				5DDFF985219B15B100FB1D3F /* Cello Mute */,
-				5DB7C309219F8D0B007873EB /* Cello Mute Tests */,
 				5DDFF984219B15B100FB1D3F /* Products */,
-				0201C737BE0446EDA71D2399 /* Pods */,
-				DFD5B2F05ABCCC2CC5065ED8 /* Frameworks */,
+				53F4E51A794D5A1ECCCDDE2F /* Pods */,
+				762444578ECEEA8B130F623B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -298,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				5DDFF983219B15B100FB1D3F /* Cello Mute.app */,
-				5DB7C308219F8D0B007873EB /* Cello Mute Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,10 +311,10 @@
 			path = Generator;
 			sourceTree = "<group>";
 		};
-		DFD5B2F05ABCCC2CC5065ED8 /* Frameworks */ = {
+		762444578ECEEA8B130F623B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A07B36227BBE588F3FED244 /* Pods_Cello_Mute.framework */,
+				C6F5FEFD0D6CE464D8E86276 /* Pods_Cello_Mute.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -370,33 +322,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DB7C307219F8D0B007873EB /* Cello Mute Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5DB7C30F219F8D0B007873EB /* Build configuration list for PBXNativeTarget "Cello Mute Tests" */;
-			buildPhases = (
-				5DB7C304219F8D0B007873EB /* Sources */,
-				5DB7C305219F8D0B007873EB /* Frameworks */,
-				5DB7C306219F8D0B007873EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5DB7C30E219F8D0B007873EB /* PBXTargetDependency */,
-			);
-			name = "Cello Mute Tests";
-			productName = "Cello Mute Tests";
-			productReference = 5DB7C308219F8D0B007873EB /* Cello Mute Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		5DDFF982219B15B100FB1D3F /* Cello Mute */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DDFF997219B15B200FB1D3F /* Build configuration list for PBXNativeTarget "Cello Mute" */;
 			buildPhases = (
-				36C7E17DA4FBEC7DD9A5CCDE /* [CP] Check Pods Manifest.lock */,
+				594141E71F0CC40F469076E6 /* [CP] Check Pods Manifest.lock */,
 				5DDFF97F219B15B100FB1D3F /* Sources */,
 				5DDFF980219B15B100FB1D3F /* Frameworks */,
 				5DDFF981219B15B100FB1D3F /* Resources */,
-				A2178D3D81327215FCAE535D /* [CP] Embed Pods Frameworks */,
+				6C92DB0BECF7D4F762DC1971 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -417,13 +351,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "William Ma";
 				TargetAttributes = {
-					5DB7C307219F8D0B007873EB = {
-						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
-						TestTargetID = 5DDFF982219B15B100FB1D3F;
-					};
 					5DDFF982219B15B100FB1D3F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -446,19 +376,11 @@
 			projectRoot = "";
 			targets = (
 				5DDFF982219B15B100FB1D3F /* Cello Mute */,
-				5DB7C307219F8D0B007873EB /* Cello Mute Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5DB7C306219F8D0B007873EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5DDFF981219B15B100FB1D3F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -478,16 +400,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36C7E17DA4FBEC7DD9A5CCDE /* [CP] Check Pods Manifest.lock */ = {
+		594141E71F0CC40F469076E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Cello Mute-checkManifestLockResult.txt",
 			);
@@ -496,47 +422,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A2178D3D81327215FCAE535D /* [CP] Embed Pods Frameworks */ = {
+		6C92DB0BECF7D4F762DC1971 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftNotificationCenter/SwiftNotificationCenter.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cello Mute/Pods-Cello Mute-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftNotificationCenter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cello Mute/Pods-Cello Mute-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cello Mute/Pods-Cello Mute-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cello Mute/Pods-Cello Mute-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5DB7C304219F8D0B007873EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D2F66C621DA7D0400AEBE19 /* Note.swift in Sources */,
-				5DB7C315219F8D21007873EB /* PitchTest.swift in Sources */,
-				5DB7C316219F8D21007873EB /* TestCase.swift in Sources */,
-				5D2F66C521DA7D0400AEBE19 /* Pitch.swift in Sources */,
-				5DB7C317219F8D21007873EB /* NoteTest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5DDFF97F219B15B100FB1D3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -581,14 +486,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5DB7C30E219F8D0B007873EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5DDFF982219B15B100FB1D3F /* Cello Mute */;
-			targetProxy = 5DB7C30D219F8D0B007873EB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		5DDFF98C219B15B100FB1D3F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -609,51 +506,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5DB7C310219F8D0B007873EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S53MNES6U5;
-				INFOPLIST_FILE = "Cello Mute Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cello Mute.app/Cello Mute";
-			};
-			name = Debug;
-		};
-		5DB7C311219F8D0B007873EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S53MNES6U5;
-				INFOPLIST_FILE = "Cello Mute Tests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cello Mute.app/Cello Mute";
-			};
-			name = Release;
-		};
 		5DDFF995219B15B200FB1D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -772,7 +624,7 @@
 		};
 		5DDFF998219B15B200FB1D3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D26AFE5443FB4528552F5F0B /* Pods-Cello Mute.debug.xcconfig */;
+			baseConfigurationReference = 8562DAF5ABFD075535710446 /* Pods-Cello Mute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -783,16 +635,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5DDFF999219B15B200FB1D3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACFD391A975559D03751E960 /* Pods-Cello Mute.release.xcconfig */;
+			baseConfigurationReference = CEDD93A34E92B78AFC6AC804 /* Pods-Cello Mute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -803,9 +656,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -813,15 +667,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DB7C30F219F8D0B007873EB /* Build configuration list for PBXNativeTarget "Cello Mute Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5DB7C310219F8D0B007873EB /* Debug */,
-				5DB7C311219F8D0B007873EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5DDFF97E219B15B100FB1D3F /* Build configuration list for PBXProject "Cello Mute" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

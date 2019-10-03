@@ -199,8 +199,11 @@ extension MetronomeViewController: BPMMonitorDelegate {
 extension MetronomeViewController: BPMPickerViewDelegate {
 
     func bpmPickerView(_ bpmPickerView: BPMPickerView, didSelectBPM newBpm: Int) {
+        bpm = newBpm
+
         if metronome.isStarted {
             metronome.stop()
+            metronome.reset()
             metronome.start(bpm: bpm, rhythm: rhythm)
         }
     }

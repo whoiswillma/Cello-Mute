@@ -10,13 +10,8 @@ import UIKit
 
 class RoundedRectButton: UIButton {
 
-    override var isSelected: Bool {
-        get {
-            return super.isSelected
-        }
-        set {
-            super.isSelected = newValue
-
+    var isFilled: Bool = false {
+        didSet {
             updateAppearance()
         }
     }
@@ -48,10 +43,12 @@ class RoundedRectButton: UIButton {
             layer.borderColor = tintColor.cgColor
         }
 
-        if isSelected {
-            backgroundColor = tintColor.withAlphaComponent(1 / 3)
+        if isFilled {
+            backgroundColor = tintColor
+            setTitleColor(.white, for: .normal)
         } else {
             backgroundColor = nil
+            setTitleColor(nil, for: .normal)
         }
     }
 
