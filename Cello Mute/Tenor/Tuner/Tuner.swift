@@ -35,12 +35,16 @@ final class Tuner: TenorEngineComponent {
 
     weak var delegate: TunerDelegate?
 
-    private let tracker: AKMicrophoneTracker
+    private let copy1: AKBooster
+    private let frequencyTracker: AKFrequencyTracker
+
+    private let copy2: AKBooster
+    private let amplitudeTracker: AKAmplitudeTracker
 
     var inactivePollPeriod: TimeInterval = 0.25
     var activePollPeriod: TimeInterval = 0.1
 
-    var activationAmplitude: Amplitude = 0.15
+    var activationAmplitude: Amplitude = 0
     private let amplitudeHistory = CircularBuffer<Amplitude>(absoluteSize: 4)
     var amplitudeResistance: Int {
         get { return amplitudeHistory.absoluteSize }
@@ -58,14 +62,21 @@ final class Tuner: TenorEngineComponent {
 
     required init() {
         microphone = AKMicrophone()
-        output = AKBooster(microphone, gain: 0)
-        tracker = AKMicrophoneTracker()
+
+        copy1 = AKBooster(microphone, gain: 1)
+        frequencyTracker = AKFrequencyTracker(copy1, hopSize: 4_096, peakCount: 20)
+
+        copy2 = AKBooster(microphone, gain: 2)
+        amplitudeTracker = AKAmplitudeTracker(copy2)
+
+        output = AKMixer(AKBooster(frequencyTracker, gain: 0), AKBooster(amplitudeTracker, gain: 0))
+
+        frequencyTracker.start()
+        amplitudeTracker.start()
     }
 
     func startTracking() {
         isActivelyTracking = false
-
-        tracker.start()
 
         timer = Timer.scheduledTimer(withTimeInterval: inactivePollPeriod, repeats: true) { [weak self] _ in
             self?.sample()
@@ -76,7 +87,7 @@ final class Tuner: TenorEngineComponent {
     }
 
     private func sample() {
-        let amplitude = tracker.amplitude
+        let amplitude = amplitudeTracker.amplitude
         amplitudeHistory.add(amplitude)
 
         delegate?.tuner(self, didSampleSoundWithAmplitude: amplitudeHistory.averageAmplitude)
@@ -110,7 +121,7 @@ final class Tuner: TenorEngineComponent {
     }
 
     private func activelySample() {
-        guard let currentPitch = Pitch(frequency: tracker.frequency) else {
+        guard let currentPitch = Pitch(frequency: frequencyTracker.frequency) else {
             return
         }
         pitchHistory.add(currentPitch)
@@ -131,8 +142,6 @@ final class Tuner: TenorEngineComponent {
 
         timer?.invalidate()
         timer = nil
-
-        tracker.stop()
 
         if isActivelyTracking {
             delegate?.tunerDidEndActivelyTracking(self)

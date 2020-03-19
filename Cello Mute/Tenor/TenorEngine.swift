@@ -13,16 +13,27 @@ final class TenorEngine {
 
     static let shared = TenorEngine()
 
-    let tuner: Tuner
-    let metronome: Metronome
-    let generator: Generator
+    private(set) var tuner: Tuner!
+    private(set) var metronome: Metronome!
+    private(set) var generator: Generator!
 
     private var started: Bool
 
     private init() {
+        print(AKSettings.sampleRate, AudioKit.engine.inputNode.inputFormat(forBus: 0).sampleRate)
+        AKSettings.sampleRate = AudioKit.engine.inputNode.inputFormat(forBus: 0).sampleRate
+        print(AKSettings.sampleRate, AudioKit.engine.inputNode.inputFormat(forBus: 0).sampleRate)
+
+        AKSettings.audioInputEnabled = true
+
         tuner = Tuner()
         metronome = Metronome()
         generator = Generator()
+
+        // audiokit
+
+        let mixer = AKMixer(tuner.output, metronome.output, generator.output)
+        AudioKit.output = mixer
 
         started = false
     }
@@ -32,12 +43,8 @@ final class TenorEngine {
             return
         }
 
-        // audiokit
-
-        let mixer = AKMixer(tuner.output, metronome.output, generator.output)
-        AudioKit.output = mixer
-
         try AKSettings.setSession(category: .playAndRecord)
+        //        try AKSettings.setSession(category: .playAndRecord, with: .mixWithOthers)
         AKSettings.defaultToSpeaker = true
 
         try AudioKit.start()
