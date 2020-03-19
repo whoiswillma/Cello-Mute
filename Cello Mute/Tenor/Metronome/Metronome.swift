@@ -18,7 +18,7 @@ protocol MetronomeDelegate: AnyObject {
 
 }
 
-final class Metronome: TenorEngineComponent {
+final class Metronome {
 
     let output: AKNode
 

@@ -28,19 +28,23 @@ class TunerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tuner = TenorEngine.shared.tuner
-        tuner.delegate = self
+        AppDelegate.shared.tunerInitialized = { tuner in
+            self.tuner = tuner
+            self.tuner.delegate = self
 
-        plotView.inputNode = tuner.microphone
+            self.plotView.inputNode = tuner.microphone
 
-        reloadSettingsFromDefaults()
-        Broadcaster.register(SettingsDefaultsObserving.self, observer: self)
+            self.reloadSettingsFromDefaults()
+            Broadcaster.register(SettingsDefaultsObserving.self, observer: self)
+
+            self.tuner.startTracking()
+        }
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        tuner.startTracking()
+        tuner?.startTracking()
 
         Warnings.shared.showMicrophoneAccessWarningIfNeeded()
     }

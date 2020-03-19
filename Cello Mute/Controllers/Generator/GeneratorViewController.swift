@@ -74,7 +74,9 @@ class GeneratorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        generator = TenorEngine.shared.generator
+        AppDelegate.shared.generatorInitialized = { generator in
+            self.generator = generator
+        }
 
         keyButtons = [
             cButton,

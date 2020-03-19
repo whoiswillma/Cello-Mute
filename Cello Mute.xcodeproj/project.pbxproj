@@ -22,7 +22,6 @@
 		5D5CAA5E21D5AFFB00C69628 /* WB-High-Norm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5B21D5AFFB00C69628 /* WB-High-Norm.wav */; };
 		5D5CAA5F21D5AFFB00C69628 /* WB-High-Sub.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5C21D5AFFB00C69628 /* WB-High-Sub.wav */; };
 		5D5CAA6021D5AFFB00C69628 /* WB-High-Em.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D5CAA5D21D5AFFB00C69628 /* WB-High-Em.wav */; };
-		5D60697421A3B9ED00367853 /* TenorEngineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D60697321A3B9ED00367853 /* TenorEngineComponent.swift */; };
 		5D66698B219D2E8400F6BCE5 /* TunerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66698A219D2E8400F6BCE5 /* TunerHeaderView.swift */; };
 		5D9D8D6221D001FF00D0512B /* SegmentedSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D8D6121D001FF00D0512B /* SegmentedSlider.swift */; };
 		5D9D8D6421D2970600D0512B /* BeatStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D8D6321D2970600D0512B /* BeatStylesView.swift */; };
@@ -34,7 +33,6 @@
 		5DB7C322219F8D7D007873EB /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C31C219F8D7D007873EB /* Tuner.swift */; };
 		5DB7C327219FBD09007873EB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C326219FBD09007873EB /* UIColor.swift */; };
 		5DB7C329219FBF1D007873EB /* TunerPlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C328219FBF1D007873EB /* TunerPlotView.swift */; };
-		5DB7C32B219FDC95007873EB /* TenorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C32A219FDC95007873EB /* TenorEngine.swift */; };
 		5DB7C33121A05E9C007873EB /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C33021A05E9C007873EB /* Metronome.swift */; };
 		5DB7C33321A06422007873EB /* BPMMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C33221A06422007873EB /* BPMMonitor.swift */; };
 		5DB7C33721A06B6A007873EB /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB7C33621A06B6A007873EB /* MetronomeViewController.swift */; };
@@ -70,7 +68,6 @@
 		5D5CAA5B21D5AFFB00C69628 /* WB-High-Norm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-High-Norm.wav"; sourceTree = "<group>"; };
 		5D5CAA5C21D5AFFB00C69628 /* WB-High-Sub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-High-Sub.wav"; sourceTree = "<group>"; };
 		5D5CAA5D21D5AFFB00C69628 /* WB-High-Em.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "WB-High-Em.wav"; sourceTree = "<group>"; };
-		5D60697321A3B9ED00367853 /* TenorEngineComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorEngineComponent.swift; sourceTree = "<group>"; };
 		5D66698A219D2E8400F6BCE5 /* TunerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerHeaderView.swift; sourceTree = "<group>"; };
 		5D9D8D6121D001FF00D0512B /* SegmentedSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedSlider.swift; sourceTree = "<group>"; };
 		5D9D8D6321D2970600D0512B /* BeatStylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatStylesView.swift; sourceTree = "<group>"; };
@@ -82,7 +79,6 @@
 		5DB7C31C219F8D7D007873EB /* Tuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
 		5DB7C326219FBD09007873EB /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5DB7C328219FBF1D007873EB /* TunerPlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerPlotView.swift; sourceTree = "<group>"; };
-		5DB7C32A219FDC95007873EB /* TenorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenorEngine.swift; sourceTree = "<group>"; };
 		5DB7C33021A05E9C007873EB /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
 		5DB7C33221A06422007873EB /* BPMMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMMonitor.swift; sourceTree = "<group>"; };
 		5DB7C33621A06B6A007873EB /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
@@ -169,8 +165,6 @@
 		5DB7C318219F8D7D007873EB /* Tenor */ = {
 			isa = PBXGroup;
 			children = (
-				5DB7C32A219FDC95007873EB /* TenorEngine.swift */,
-				5D60697321A3B9ED00367853 /* TenorEngineComponent.swift */,
 				5DB7C319219F8D7D007873EB /* Pitch.swift */,
 				5DB7C31B219F8D7D007873EB /* Note.swift */,
 				5DB7C31A219F8D7D007873EB /* CircularBuffer.swift */,
@@ -454,7 +448,6 @@
 				5D239D1121EA56FF0050DE8E /* DefaultsKeys.swift in Sources */,
 				5DB7C31F219F8D7D007873EB /* Pitch.swift in Sources */,
 				5D9D8D6421D2970600D0512B /* BeatStylesView.swift in Sources */,
-				5D60697421A3B9ED00367853 /* TenorEngineComponent.swift in Sources */,
 				5DE00A9821D86DC300B4150A /* RoundedRectButton.swift in Sources */,
 				5D4E05B62206992200EA114F /* Warnings.swift in Sources */,
 				5DB7C329219FBF1D007873EB /* TunerPlotView.swift in Sources */,
@@ -473,7 +466,6 @@
 				5D9D8D6221D001FF00D0512B /* SegmentedSlider.swift in Sources */,
 				5D0B713B21DBCD1700894D5D /* SettingsTableViewController.swift in Sources */,
 				5D239D0F21EA46660050DE8E /* Settings.swift in Sources */,
-				5DB7C32B219FDC95007873EB /* TenorEngine.swift in Sources */,
 				5DDFF987219B15B100FB1D3F /* AppDelegate.swift in Sources */,
 				5DB6506E219B1760000C14E4 /* TunerViewController.swift in Sources */,
 				5D04F71321C73CCC00EACA29 /* BPMPickerView.swift in Sources */,
@@ -635,7 +627,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -656,7 +648,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamma.Cello-Mute";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

@@ -25,7 +25,7 @@ protocol TunerDelegate: AnyObject {
 
 }
 
-final class Tuner: TenorEngineComponent {
+final class Tuner {
 
     typealias Amplitude = Double
 

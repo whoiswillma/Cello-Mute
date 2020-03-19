@@ -60,8 +60,10 @@ class MetronomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        metronome = TenorEngine.shared.metronome
-        metronome.delegate = self
+        AppDelegate.shared.metronomeInitialized = { metronome in
+            self.metronome = metronome
+            self.metronome.delegate = self
+        }
 
         bpmMonitor.delegate = self
 

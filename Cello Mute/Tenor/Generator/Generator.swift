@@ -9,7 +9,7 @@
 import AudioKit
 import Foundation
 
-final class Generator: TenorEngineComponent {
+final class Generator {
 
     let output: AKNode
 
